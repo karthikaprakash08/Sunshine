@@ -31,6 +31,26 @@ app.get('/users', (req,res)=>{
 fetch().catch(console.dir);
   
 })
+app.get('/contacts', (req,res)=>{
+
+  async function fetch(){
+    try{
+      await client.connect();
+
+        const db = client.db("Sunshine_DB");
+        const col = db.collection("ContactUs");
+
+        const filter = { "email": req.query.email };
+        col.findOne(filter).then((document)=>{
+        res.json(JSON.stringify(document));
+  })
+    }catch (err) {
+      console.log(err.stack);
+  }
+}
+fetch().catch(console.dir);
+  
+})
 app.post('/', (req, res)=>{
   console.log(req.body)
   res.json({ message: 'Data received successfully!' });
@@ -48,6 +68,36 @@ app.post('/', (req, res)=>{
             "email": req.body.email,
             "phone": req.body.phone,
             "location": req.body.location,
+          },
+        ]
+
+        const p = await col.insertMany(peopleDocuments);
+    } catch (err) {
+        console.log(err.stack);
+    }
+    finally {
+        await client.close();
+    }
+  }
+  run().catch(console.dir);
+})
+app.post('/savecontact', (req, res)=>{
+  console.log(req.body)
+  res.json({ message: 'Data received successfully!' });
+  async function run() {
+    try {
+        await client.connect();
+
+        const db = client.db("Sunshine_DB");
+          const col = db.collection("ContactUs");
+        console.log("Successfully connected to Atlas");
+
+        const peopleDocuments = [
+          {
+            "name": req.body.name,
+            "email": req.body.email,
+            "phone": req.body.phone,
+            "message": req.body.message,
           },
         ]
 

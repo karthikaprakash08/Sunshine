@@ -1,0 +1,33 @@
+.designpart{
+   background: linear-gradient(to right,rgba(172, 166, 166, 0.735) 50%,rgba(148, 146, 146, 0.1));
+    height: 100px;
+    width: 200px;
+    border-radius: 20px;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+margin-bottom: 10px;
+
+}
+
+.threedesign{
+    background: linear-gradient(to right,rgba(172, 166, 166, 0.735) 50%,rgba(148, 146, 146, 0.1));
+    height: 299px;
+    width: 200px;
+    border-radius: 20px;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+margin-bottom: 10px;
+}
+
+.gradientcolor{
+    
+    font-weight: bold;
+    background: linear-gradient(to right, #ff7e5f, #feb47b);
+    -webkit-background-clip: text;
+    color: transparent;
+    font-weight: 600;
+}

@@ -1,0 +1,55 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Odor+Mean+Chey&display=swap');
+
+
+  .navbar{
+    font-family: 'Odor Mean Chey';
+  }
+  .white{
+    color: white;
+  }
+  
+.nav-link.white {
+    color: #ffffff; 
+  }
+ 
+  .navlogo{
+    height: 100px;
+    margin-left: 40px;
+    margin-top: -10px;
+
+  }
+.nav-link.white:visited {
+    color: #ffffff; 
+  }
+  .navbar-toggler-icon{
+   background-color: 
+   white;
+   border-radius: 3px;
+   padding: 5px;
+  }
+  
+  
+  .nav-link.white:hover {
+    color: #ffffff; 
+  }
+  
+  .nav-link.white:active {
+    color: #ffffff; 
+  }
+  .bluecolor{
+    background: linear-gradient(72deg,#1B1A1D,#302424,#2E2938,#2B2A3C);
+    color: white;
+   }
+   .forntsixe{
+    font-size: 23px;
+    margin-right: 60px;
+    gap: 15px;
+   }
+
+   .newline{
+    width: 1650px;
+    color: gainsboro;
+    background-color: grey;
+    height: 1px;
+   }

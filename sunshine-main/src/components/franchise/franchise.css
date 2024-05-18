@@ -1,0 +1,130 @@
+.cont_box{
+    background: linear-gradient(to right,#A368B2,#BA87B6);
+    border-radius: 11px;
+    height: 90px;
+    padding: 20px;
+    width: 300px;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left_cont_franchise{
+    display: grid;
+    grid-template-columns: repeat(3,100px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 150px;
+}
+.wrap_franchise{
+    margin-top: 167px;
+   /* display: flex; */
+   width: auto;
+
+   margin-left: 100px;
+}
+
+.first_part{
+    display: flex;
+    gap: 50px;
+    flex-direction: column;
+}
+
+.second_part{
+    display: flex;
+    gap: 50px;
+    flex-direction: column;
+}
+
+.franchise{
+    display: flex;
+}
+.whole_wrapf{
+    /* background-color: black; */
+    position: relative;
+    top: -200px;
+    color: wheat;
+    z-index: -3;
+    background: linear-gradient(180.46deg, rgba(254, 161, 36, 0.8) 3.26%, #F2E3F2 99.61%);
+    /* background-size: contain; */
+    height: 490px;
+    background-repeat: no-repeat;
+    background-size: cover;
+     
+  border-bottom-left-radius: 60px;
+  border-bottom-right-radius: 60px;
+}
+.mb-50{
+    font-weight: 900px;
+    font-size: 50px;
+   position: relative;
+   top: 180px;
+   left: -290px;
+   margin-left: 50px;
+   font-family: Odor Mean Chey;
+
+}
+.whyfran{
+    height: 400px;
+    width: 450px;
+}
+.f-b{
+    color: black;
+    font-weight: 700;
+}
+
+@media (max-width:576px){
+    .franchise{
+        flex-direction: column;
+    }
+    .left_cont_franchise{
+        display: grid;
+        grid-template-columns: repeat(1,100px);
+        justify-content: center;
+        gap: 50px;
+        margin-left: -300px;
+    }
+    .whole_wrapf{
+        /* background-color: black; */
+        position: relative;
+        top: -200px;
+        color: wheat;
+        z-index: -3;
+        
+        
+        height: 980px;
+         
+      border-bottom-left-radius: 10px;
+      border-bottom-right-radius: 60px;
+    }
+    .right_cont_franchise{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+    }
+    .whyfran{
+        height: 260px;
+        width: 380px;
+        margin-right: 70px;
+        
+    }
+}
+
+.whole_wrapf {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 600px;
+  }
+  
+  
+  
+  
+  
+  
+  

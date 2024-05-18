@@ -1,0 +1,143 @@
+/* Base styles (desktop) */
+.Sunshine-head {
+  background-color: #5474F6;
+  border-bottom-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+  width: 100%;
+  height: 110vh;
+  margin-top: -16rem;
+  position: relative;
+  z-index: -5;
+}
+
+.custom-circle {
+  width: 100%;
+  height: 100vh;
+  background-color: #9caffd;
+  margin-top: 40px;
+  -webkit-clip-path: circle(46% at 0 51%);
+  clip-path: circle(46% at 0 51%);
+}
+
+.center_circle22 {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  color: #131E97;
+  border: 7px solid rgb(44, 164, 204);
+  position: absolute;
+  top: 50%;
+  left: 10%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.circle {
+  width: 100px;
+  height: 100px;
+  background-color: white;
+  border-radius: 50%;
+  position: absolute;
+  z-index: 2;
+  border: 5px solid rgb(12, 173, 226);
+}
+
+.square {
+  width: 320px;
+  height: 85px;
+  background-color: white;
+  position: absolute;
+  text-align: center;
+  padding-top: 1%;
+  border-bottom-right-radius: 15px;
+  font-weight: bold;
+  font-size: 19px;
+  padding-top: 20px;
+}
+
+.circle_img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+
+/* Circle and Square positions */
+.circle1 { top: 10%; left: 10%; display: flex; justify-content: center; align-items: center; }
+.square1 { position: absolute; left: 14rem; top: 5.5rem; border: 5px solid rgb(140, 246, 168); z-index: 1; }
+
+.circle2 { top: 28%; left: 17%; display: flex; justify-content: center; align-items: center; }
+.square2 { position: absolute; left: 20rem; top: 14.5rem; border: 5px solid rgb(234, 198, 108); z-index: 1; }
+
+.circle3 { top: 47%; left: 19%; display: flex; justify-content: center; align-items: center; }
+.square3 { position: absolute; left: 22rem; top: 24rem; z-index: 1; border: 5px solid rgb(236, 137, 170); padding-left: 15px; }
+
+.circle4 { top: 65%; left: 15%; display: flex; justify-content: center; align-items: center; }
+.square4 { position: absolute; left: 18rem; top: 33rem; border: 5px solid rgb(93, 90, 86); z-index: 1; padding-left: 15px; }
+
+.circle5 { top: 82%; left: 8%; display: flex; justify-content: center; align-items: center; }
+.square5 { position: absolute; left: 11.5rem; top: 42rem; border: 5px solid palevioletred; z-index: 1; padding-left: 15px; }
+
+.image1 { height: 450px; width: 500px;  }
+
+/* Mobile view media queries */
+@media (max-width: 768px) {
+  .Sunshine-head {
+    height: 90vh;
+    margin-top: -10rem;
+  }
+
+  .custom-circle {
+    height: 90vh;
+    margin-top: 20px;
+    -webkit-clip-path: circle(50% at 50% 50%);
+    clip-path: circle(50% at 50% 50%);
+  }
+
+  .center_circle22 {
+    width: 150px;
+    height: 150px;
+    top: 40%;
+    left: 50%;
+    font-size: 16px;
+    border: 5px solid rgb(44, 164, 204);
+  }
+
+  .circle {
+    width: 80px;
+    height: 80px;
+    border: 3px solid rgb(12, 173, 226);
+  }
+
+  .square {
+    width: 250px;
+    height: 70px;
+    font-size: 16px;
+    padding-top: 15px;
+  }
+
+  .circle1 { top: 15%; left: 5%; }
+  .square1 { left: 12rem; top: 8rem; }
+
+  .circle2 { top: 35%; left: 8%; }
+  .square2 { left: 14rem; top: 18rem; }
+
+  .circle3 { top: 55%; left: 10%; }
+  .square3 { left: 16rem; top: 28rem; }
+
+  .circle4 { top: 75%; left: 7%; }
+  .square4 { left: 13rem; top: 38rem; }
+
+  .circle5 { top: 90%; left: 5%; }
+  .square5 { left: 10rem; top: 47rem; }
+
+  .image1 {
+    height: 250px;
+    width: 250px;
+  }
+}

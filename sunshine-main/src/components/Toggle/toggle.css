@@ -1,0 +1,245 @@
+@import url('https://fonts.googleapis.com/css2?family=Rowdies:wght@300;400;700&display=swap');
+
+/* Container for the sections */
+
+.container-sections {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    /* margin: 50px; */
+  }
+  
+  /* Individual section styles */
+  .section {
+    /* margin: 10px; */
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+    position: relative;
+    flex: 1 1 1 10%; /* Flex properties for responsiveness */
+    min-width: 100px; /* Minimum width to prevent too small sections */
+    width: 350px;
+    text-align: center; /* Center the text */
+
+  }
+  
+  /* Style for the active section */
+  .section::before{
+    content: '';
+    position: absolute;
+    top: -18px;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    background-color: black;
+  }
+  
+  /* Style for the active line */
+  .section.active::after {
+    content: '';
+    position: absolute;
+    top: -20px; /* Adjusted position */
+    left: 0;
+    width: 100%;
+    height: 4px;
+    background-color: #007bff;
+  }
+  
+  /* Container for the selected content */
+  .content-container {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    flex-direction: column; /* Stack content vertically on smaller screens */
+    align-items: center; /* Center content horizontally */
+  }
+  
+  /* Style for the content */
+  .content {
+    background: linear-gradient(to right, #ff8360, #ffaf95); 
+    padding: 20px;
+    border-radius: 50px;
+    max-width: 1100px; /* Increased max width */
+    width: 100%;  
+    height: 430px;
+    margin-bottom: 40px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Media query for smaller screens */
+  @media (max-width: 768px) {
+    .section {
+      flex: 1 1 45%; /* Adjust width for smaller screens */
+    }
+  
+    .section:first-child {
+      flex: 1 1 100%; /* Full width for the first section on smaller screens */
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .section {
+      flex: 1 1 100%; /* Full width for very small screens */
+    }
+   
+    p{
+      font-size: 17px;
+    }
+    .content {
+      max-width: 100%; /* Full width content on very small screens */
+    }
+    .content {
+      background: linear-gradient(to right, #ff8360, #ffaf95); 
+      padding: 20px;
+      border-radius: 50px;
+      max-width: 1200px; /* Increased max width */
+      width: 100%;  
+      height: 390px !important;
+      margin-bottom: -40px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      
+    }
+    
+    
+  }
+  .cont {
+  
+    padding: 20px;
+    position: relative;
+    border-radius: 8px;
+  }
+  
+  .conte{
+    position: relative;
+    font-size: 18px;
+  }
+  .conte p{
+    font-size: 22px;
+    font-weight: 500;
+    font-family: "Space Grotesk";
+  }
+  .responsive-image {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    max-width: 100%;
+    height: auto;
+  }
+  .span{
+    margin-left:50px;
+    font-weight: 700;
+    font-size: 22px ;
+    font-weight: bold;
+    font-family: Space Grotesk;
+  }
+
+  .span1{
+    margin-left:50px;
+    font-weight: bold;
+    font-size: 25px;
+    font-family: Space Grotesk;
+  }
+
+
+
+  .split {
+    display: flex;
+    align-items: center;
+    margin-top: -130px;
+  }
+  
+  .split p {
+    font-size: 20px;
+    margin-left: 50px;
+    margin-top: 30px;
+  }
+  
+  .split img {
+    width: 350px;
+    height: 350px;
+    max-width: 100%;
+  }
+  .head {
+    width: 100%; 
+    max-width: 300px; 
+    height: auto; 
+    /* padding: 30px; */
+    box-sizing: border-box; /* Include padding in the width calculation */
+    /* float: left; */
+    width: 100%;
+    /* margin-bottom: 30px; */
+    /* Center align content horizontally and vertically */
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    
+  
+  }
+  
+  .paras {
+    font-size: 16px;
+    font-weight: 600;
+    text-align: left; /* Center align text */
+    width: 100%; /* Ensure text width is 100% of its container */
+    /* margin-top: -10px; */
+    /* Limit text width for readability and responsiveness */
+    max-width: 100%;
+  }
+  .top{
+    text-align: left;
+    font-size: 18px;
+    font-weight: 700;
+    font-family: "Rowdies";
+  }
+  
+  
+  
+  
+  
+  @media only screen and (max-width: 600px) {
+    .split {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .split img {
+      /* order: 1; */
+      /* margin-bottom: 20px; */
+      display: none;
+  
+    }
+    .content {
+      background: linear-gradient(to right, #ff8360, #ffaf95); 
+      padding: 20px;
+      border-radius: 50px;
+      max-width: 1200px; /* Increased max width */
+      width: 100%;
+       height: 600px;
+      margin-bottom: -40px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      height:700px;
+    }
+    .paras {
+      display: none; /* Hide paragraph on devices with a max width of 767px (e.g., small screens) */
+    }
+   
+  }
+  @media only screen and (min-width: 300px) and (max-width: 600px) {
+    .split{
+      margin-top: 3px;
+    }
+    .split img {
+      /* order: 1;
+      margin-top: -30px; */
+      /* margin-bottom: 20px; */
+      display: none;
+    }
+    .paras {
+      display: none; /* Hide paragraph on devices with a max width of 767px (e.g., small screens) */
+    }
+    .head{
+      margin-top: 50px;
+     
+    }
+  }

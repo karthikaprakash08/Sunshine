@@ -1,0 +1,301 @@
+
+.probootstrap-footer {
+    padding: 8em 0;
+    padding-bottom: 0;
+    background-color: #000000;
+    background-size: cover;
+    background-position: center;
+    color: rgba(255, 255, 255, 0.9);
+    margin-top: -40px;
+    height: 800px;
+    position: relative;
+    
+ 
+  }
+  
+  .probootstrap-footer a {
+    color: rgba(255, 255, 255, 0.6);
+  }
+  
+  .probootstrap-footer a:hover {
+    color:#0ea5e9;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .probootstrap-footer {
+      padding: 3em 0;
+    }
+  }
+  
+  .probootstrap-footer .probootstrap-copyright {
+    padding: 3em 0;
+    margin-top: 20px;
+    background: #1a1919;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .probootstrap-footer .probootstrap-copyright {
+      margin-top: 0px;
+    }
+  }
+  
+  .probootstrap-footer .probootstrap-copyright p {
+    line-height: 10px;
+  }
+  
+  .probootstrap-footer .probootstrap-copyright p .icon {
+    position: relative;
+    top: 2px;
+  }
+  
+  .probootstrap-footer .probootstrap-copyright p:last-child {
+    margin-bottom: 0;
+  }
+  
+  .probootstrap-footer .probootstrap-footer-widget {
+    float: left;
+    width: 100%;
+    margin-bottom: 30px;
+  }
+  .probootstrap-footer .probootstrap-footer-widget p {
+    border-right: 1px solid rgba(255, 255, 255, 0.3); /* Adjust thickness and color as needed */
+    padding-right: 10px;
+    font-size: 23px;
+    font-weight: 400;
+    height: 100%; /* Match the height of the parent container */
+    line-height: 2.0;
+   
+  }
+ 
+  
+  
+  .probootstrap-footer .probootstrap-footer-widget h3 {
+    color:#0ea5e9;
+    font-size: 24px;
+    font-weight: 700;
+  }
+  
+  .probootstrap-footer .probootstrap-footer-widget ul {
+    margin: 0;
+    padding: 0 0 20px 0;
+  }
+  
+  .probootstrap-footer .probootstrap-footer-widget ul li {
+    margin: 0 0 10px 0;
+    padding: 0;
+    list-style: none;
+  }
+  
+  .probootstrap-footer .probootstrap-footer-widget .probootstrap-contact-info li {
+    display: block;
+  }
+  
+  .probootstrap-footer .probootstrap-footer-widget .probootstrap-contact-info li i {
+    display: table-cell;
+    vertical-align: top;
+    width: 40px;
+    color:#0ea5e9;
+  }
+  
+  .probootstrap-footer .probootstrap-footer-widget .probootstrap-contact-info li span {
+    display: inline;
+    margin-left: -10px;
+    font-size: 20px;
+    font-weight: 500;
+  }
+  /* verr evre vere */
+
+  .probootstrap-footer .probootstrap-footer-widget1 {
+    float: left;
+    width: 100%;
+    margin-bottom: 30px;
+  }
+  .probootstrap-footer .probootstrap-footer-widget1 p {
+   
+    font-size: 22px;
+    font-weight: 600;
+    height: 100%; /* otheeetttter*/
+    line-height: 2;
+    width: 350px;
+    color: rgba(255, 255, 255, 0.4);
+   
+  }
+ 
+  
+  
+  .probootstrap-footer .probootstrap-footer-widget1 h3 {
+    color:#0ea5e9;
+    font-size: 24px;
+    font-weight: 700;
+  }
+  
+  .probootstrap-footer .probootstrap-footer-widget1 ul {
+    margin: 0;
+    padding: 0 0 20px 0;
+  }
+  
+  .probootstrap-footer .probootstrap-footer-widget1 ul li {
+    margin: 0 0 10px 0;
+    padding: 0;
+    list-style: none;
+  }
+  
+  .probootstrap-footer .probootstrap-footer-widget1 .probootstrap-contact-info li {
+    display: block;
+  }
+  
+  .probootstrap-footer .probootstrap-footer-widget1 .probootstrap-contact-info li i {
+    display: table-cell;
+    vertical-align: top;
+    width: 40px;
+    color:#0ea5e9;
+  }
+  
+  .probootstrap-footer .probootstrap-footer-widget .probootstrap-contact-info li span {
+    /* vertical-align: top; */
+    display: inline;
+    margin-left: -10px;
+    font-size: 15px;
+    font-weight: 500;
+  }
+
+  .button-container {
+    display: flex;
+    justify-content: center;
+     margin-top: 30px;
+    
+}
+
+.custom-button {
+    background-color: #0ea5e9;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 4px 25px;
+    cursor: pointer;
+    margin-left: 58px;
+    transition: background-color 0.3s ease;
+}
+
+.custom-button:hover {
+    background-color: #1e6f9a;
+}
+  
+  .probootstrap-footer .probootstrap-back-to-top {
+    text-align: right;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .probootstrap-footer .probootstrap-back-to-top {
+      text-align: left;
+      margin-top: 30px;
+    }
+  }
+  
+  .probootstrap-search {
+    position: fixed;
+    top: 0;
+    left: 0;
+    min-height: 100%;
+    min-width: 100%;
+    height: 100vh;
+    width: 100vw;
+    background: white;
+    z-index: 9999;
+    -webkit-transition: .3s all;
+    transition: .3s all;
+    opacity: 0;
+    visibility: hidden;
+  }
+  
+  .probootstrap-search.active {
+    opacity: 1;
+    visibility: visible;
+  }
+  
+  .probootstrap-search .probootstrap-close {
+    color:#0ea5e9;
+    right: 30px;
+    top: 30px;
+    position: absolute;
+    font-size: 28px;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .probootstrap-search .probootstrap-close {
+      right: 20px;
+      top: 20px;
+    }
+  }
+  
+  .probootstrap-search .probootstrap-close:hover {
+    color:#0ea5e9;
+  }
+  
+  .probootstrap-search form {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translateY(-50%) translateX(-50%);
+    transform: translateY(-50%) translateX(-50%);
+    width: 70%;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .probootstrap-search form {
+      width: 80%;
+    }
+  }
+  
+  .probootstrap-search form input {
+    color: #000000;
+    width: 100%;
+    font-size: 50px;
+    height: 100px;
+    border: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border-radius: 0px !important;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .probootstrap-search form input {
+      font-size: 18px;
+      height: 50px;
+    }
+  }
+  
+  .probootstrap-search form input:focus, .probootstrap-search form input:active {
+    outline: none;
+  }
+  
+  .probootstrap-uppercase {
+    color:#0ea5e9;
+    font-size: 14px;
+    margin-bottom: 5px;
+  }
+  
+  .probootstrap-footer-social {
+    padding: 0;
+    margin: 0;
+    
+  }
+  
+  .probootstrap-footer-social li {
+    display: inline;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+ 
+  }
+  
+  .probootstrap-footer-social li a {
+    padding: 10px;
+    font-size: 22px;
+  }
+  
+  .probootstrap-footer-social li:first-child > a {
+    padding-left: 0;
+  }
+  

@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@300..900&family=Odor+Mean+Chey&display=swap');
+
+
+.main_head{
+    background: linear-gradient(72deg,#1B1A1D,#302424,#2E2938,#2B2A3C);
+    height: 60vh;
+    border-bottom-left-radius: 60px;
+    border-bottom-right-radius: 60px;
+ 
+    
+}
+.right_content_main{
+    height: 230px;
+    overflow: hidden;
+}
+
+.heightset{
+    height: 230px;
+    /* background-color: red; */
+    width: 260px;
+}
+.rightslide{
+    position: relative
+    ;
+left: 70px;}
+.mainimgmain{
+    margin-bottom: 19px;
+}
+.imganimation{
+    white-space: nowrap;
+  height: 200px;
+  width: 160px;
+  margin-bottom: 10px;
+}
+.animation{
+    overflow: hidden;
+    white-space: nowrap;
+    width: 100%;
+}
+.whole_container{
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    align-items: center;
+    height: 50vh;
+}
+.scrollingimg{
+   height: 130px;
+   width: 120px;
+   margin-bottom: 10px;
+}
+.left_content_main{
+    line-height: 38px;
+}
+.cuscolor{
+    color: rgba(255, 120, 71, 0.975);  
+}
+.btns{
+    display: flex;
+    gap: 13px;
+}
+.txtfamily{
+    font-family: 'Frank Ruhl Libre';
+}
+.blue_btns{
+    color: white;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+}
+.border_btns{
+ 
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    border: 1px solid white;
+    font-weight: 600;
+}
+.wrapper_icons{
+    display: flex;
+    justify-content: center;
+}
+.contents_main{
+    width: 800px;
+    display: flex;
+    justify-content: space-around;
+}
+.icons{
+    display: flex;
+    gap: 10px;
+    color: white;
+    font-weight: 600;
+}
+.mainicon{
+    color:rgb(86, 152, 240);
+    font-size: 25px;
+}
+.cusbtnone{
+    background-color: blue;
+    color: white;
+    border: none;
+    padding: 1px 23px;
+}
+.cusbtntwo{
+border: 2px solid white;
+background-color: transparent;
+color: white;
+padding: 1px 23px;
+}
+.mainimgmain{
+    height: 200px;
+    width: 200px;
+}
+@media (max-width:576px) {
+    .main_head{
+        background: linear-gradient(72deg,#1B1A1D,#302424,#2E2938,#2B2A3C);
+        height: 100vh;
+        border-bottom-left-radius: 30px;
+        border-bottom-right-radius: 30px;
+        
+    }
+    .whole_container{
+        display: flex;
+        justify-content: space-around;
+        color: white;
+        flex-direction: column;
+        align-items: center;
+        height: 50vh;
+        position: relative;
+        top: 10px;
+        margin: 0 20px;
+    }
+    .wrapper_icons{
+        display: flex;
+        justify-content: center;
+        margin-top: 200px;
+    }
+    .right_content_main{
+        margin-top:30px ;   
+       overflow: visible;
+    }
+    .contents_main{
+        width: 800px;
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+        align-items: center;
+    }
+    .imganimation{
+        white-space: nowrap;
+      height: 200px;
+      width: 160px;
+      margin-bottom: 10px;
+    }
+}

@@ -1,0 +1,39 @@
+/* 
+---------------------------------------------
+Team Style
+--------------------------------------------- 
+*/
+body::-webkit-scrollbar {
+  width: 0; /* width of the scrollbar */
+  background-color: transparent; /* background color behind the scrollbar */
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: rgba(0, 0, 0, 0); /* transparent scrollbar thumb */
+}
+body{
+  overflow-x: hidden;
+}
+
+.team {
+     margin-top: 50px;
+      padding-top: 100px;
+      background-image: url('/src/components/Team/images/Section.png');
+      background-size: cover;
+      background-position: center;
+      width: 100%; 
+      height: 500px;
+      border-radius: 0px 0px 40px 40px;
+      position: relative;
+      z-index: 2;
+  }
+
+  
+
+  
+
+   
+  
+    
+  
+  

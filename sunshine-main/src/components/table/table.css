@@ -1,19 +1,21 @@
-
-
 .wholecontainer {
   padding: 20px;
 }
+
 .pagination-controls {
   background-color: hsl(267, 40%, 80%);
   border-radius: 80%;
 }
+
 .wholecontainer{
   background: linear-gradient(122.01deg, #1F0A39 0%, #400D22 81.9%);
-  margin-top:-40px;
+  margin-top:-90px;
   max-width:100%;
-  height:800px;
-  border-radius:25px ;
+  height:850px;
+  border-radius:45px ;
+  
 }
+
 .heading{
   backdrop-filter: blur(10px); /* Apply backdrop filter for blur effect */
   box-shadow: inset 0 0 10px rgba(255, 255, 255, 0.5);
@@ -33,6 +35,7 @@
 
   background: linear-gradient(122.01deg, #1F0A39 0%, #400D22 81.9%);
 }
+
 .pagination-container {
  
   display: flex;
@@ -41,13 +44,12 @@
   text-align: center;
   margin-top: 20px;
   padding: 10px;
-
-
 }
 
- .color{
+.color{
   color: #58a0ce;
 }
+
 .MuiPaginationItem-root {
   color: white; /* Default text color */
  /* Default background color */
@@ -69,33 +71,30 @@
    /* Text color of the selected item */
 }
 
-
-
 .finn{
   text-align: right;
 }
+
 .card2 {
   width: 600px;
   backdrop-filter: blur(10px); /* Apply backdrop filter for blur effect */
   box-shadow: inset 0 0 30px rgba(255, 255, 255, 0.5);
-
   background: linear-gradient(122.01deg, #1F0A39 0%, #400D22 81.9%);
- height:650px;
+  height:650px;
   border:  none;
   border-radius: 25px;
   margin-top: 25px;
-
   padding-top: 30px;
   margin: 50px;
   background: linear-gradient(122.01deg, #1F0A39 0%, #400D22 81.9%);
 }
+
 .card4 {
   backdrop-filter: blur(10px); /* Apply backdrop filter for blur effect */
   box-shadow: inset 0 0 30px rgba(255, 255, 255, 0.5);
-
   background: linear-gradient(122.01deg, #1F0A39 0%, #400D22 81.9%);
   width: 400px;
- height:650px;
+  height:650px;
   border: 1px solid none;
   border-radius: 25px;
   margin-top: 25px;
@@ -104,52 +103,52 @@
   margin: 50px;
   background: linear-gradient(122.01deg, #1F0A39 0%, #400D22 81.9%);
 }
+
 .container{
   max-height: auto;
 }
+
 .card3 {
   width: 400px;;
   backdrop-filter: blur(10px); /* Apply backdrop filter for blur effect */
   box-shadow: inset 0 0 30px rgba(255, 255, 255, 0.5);
-
   background: linear-gradient(122.01deg, #1F0A39 0%, #400D22 81.9%);
- height:650px;
+  height:650px;
   border: 1px solid none;
   border-radius: 25px;
   margin-top: 25px;
-
   padding-top: 30px;
   margin: 50px;
+}
 
-}.card5 {
+.card5 {
   width: 400px;
   backdrop-filter: blur(10px); /* Apply backdrop filter for blur effect */
   box-shadow: inset 0 0 30px rgba(255, 255, 255, 0.5);
-
   background: linear-gradient(122.01deg, #1F0A39 0%, #400D22 81.9%);
- height:650px;
+  height:650px;
   border: 1px solid none;
   border-radius: 25px;
   margin-top: 25px;
-
-  padding-top: 30px;
-  margin: 50px;
-  background: linear-gradient(122.01deg, #1F0A39 0%, #400D22 81.9%);
-}.card6 {
-  backdrop-filter: blur(10px); /* Apply backdrop filter for blur effect */
-  box-shadow: inset 0 0 30px rgba(255, 255, 255, 0.5);
-
-  background: linear-gradient(122.01deg, #1F0A39 0%, #400D22 81.9%);
-  width: 400px;
- height:650px;
-  border: 1px solid none;
-  border-radius: 25px;
-  margin-top: 25px;
-
   padding-top: 30px;
   margin: 50px;
   background: linear-gradient(122.01deg, #1F0A39 0%, #400D22 81.9%);
 }
+
+.card6 {
+  backdrop-filter: blur(10px); /* Apply backdrop filter for blur effect */
+  box-shadow: inset 0 0 30px rgba(255, 255, 255, 0.5);
+  background: linear-gradient(122.01deg, #1F0A39 0%, #400D22 81.9%);
+  width: 400px;
+  height:650px;
+  border: 1px solid none;
+  border-radius: 25px;
+  margin-top: 25px;
+  padding-top: 30px;
+  margin: 50px;
+  background: linear-gradient(122.01deg, #1F0A39 0%, #400D22 81.9%);
+}
+
 /* *{
   background-color:#1f0a39 ;
 } */
@@ -164,6 +163,7 @@
   background: linear-gradient(122.01deg, #1F0A39 0%, #400D22 81.9%);
 
 }
+
 .container{
   width: 1200px;
   height: 500px;
@@ -171,7 +171,6 @@
   justify-content: center;
   align-items: center;
 }
-
 
 table{
   width:180vh;
@@ -183,17 +182,17 @@ table{
       padding: 20px;
       border-radius: 50px;
      
-  }
+}
 
 .striped-table th {
-text-align: left;
+  text-align: left;
   padding: 14px;
   margin-bottom: 25px;
-text-align: center;
-background: linear-gradient(to right, #758be6, #7c30f5);; /* Bootstrap primary color background */
-color: white;
-font-size: 1.25rem; /* Increase font size for card header */
-font-weight: bold;
+  text-align: center;
+  background: linear-gradient(to right, #758be6, #7c30f5);; /* Bootstrap primary color background */
+  color: white;
+  font-size: 1.25rem; /* Increase font size for card header */
+  font-weight: bold;
 }
 
 .head1{
@@ -201,12 +200,13 @@ font-weight: bold;
   border: none;
   margin-right: 40px;
 }
-th.finn {
 
+th.finn {
   text-align: right; /* Horizontally center */
   vertical-align: right; /* Vertically center */
  /* Set a height to see the vertical alignment effect */
 }
+
 th.rev{
   text-align: left; /* Horizontally center */
   vertical-align:left; 
@@ -215,17 +215,18 @@ th.rev{
 .head2{
   border-top-right-radius: 20px;
 }
+
 .striped-table td{
   /* background: linear-gradient(122.01deg, #1F0A39 0%, #400D22 81.9%); */
   border-style: border-box;
   margin:30px;
- padding: 20px;
+  padding: 20px;
   border: 1px solid white;
   text-align: left;
- 
-text-align: center;
-color:white;
+  text-align: center;
+  color:white;
 }
+
 .striped-table m{
   border-radius: 80%;
 }
@@ -242,6 +243,7 @@ margin-top: -20px;
  
  /* Border radius for the entire table */
 }  
+
 /* Add custom styles for the table, card, and headers if needed */
 .table-responsive {
 overflow-x: auto;
@@ -255,6 +257,7 @@ text-align: center; /* Center align text */
 .card {
 border: 1px solid #ddd; /* Light border around the card */
 }
+
 .heading{
   color:white;
   font-size: 1.25rem; /* Increase font size for card header */

@@ -1,5 +1,5 @@
 .designpart{
-   background: linear-gradient(to right,rgba(172, 166, 166, 0.735) 50%,rgba(148, 146, 146, 0.1));
+   background: linear-gradient(to right,rgba(212, 205, 205, 0.735) 50%,rgba(148, 146, 146, 0.1));
     height: 100px;
     width: 200px;
     border-radius: 20px;
@@ -12,7 +12,7 @@ margin-bottom: 10px;
 }
 
 .threedesign{
-    background: linear-gradient(to right,rgba(172, 166, 166, 0.735) 50%,rgba(148, 146, 146, 0.1));
+    background: linear-gradient(to right,rgba(224, 204, 204, 0.735) 50%,rgba(148, 146, 146, 0.1));
     height: 299px;
     width: 200px;
     border-radius: 20px;

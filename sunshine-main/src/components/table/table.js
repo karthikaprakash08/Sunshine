@@ -22,7 +22,7 @@ const Tablee = () => {
   return (
     <>
       <div className='wholecontainer col md-6 col sm-12'>
-      <div className="card-headerr text-center md-3 sm-5">
+      <div className="card-headerr text-center md-3 sm-5" style={{paddingTop:"100px"}}>
         The below financial achieved by spending 3 to 4 hrs in a day
       </div>  
       <div className="container d-flex justify-content-center align-items-center my-3">

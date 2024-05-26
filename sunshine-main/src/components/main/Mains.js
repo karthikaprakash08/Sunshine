@@ -34,19 +34,19 @@ const Mains = () => {
     <div className="main_head">
       <div className="whole_container">
         <div className="left_content_main">
-          <h1 className="text-4xl cuscolor txtfamily gradientcolorr">Welcome to Sunshine</h1>
-          <h1 className="text-4xl txtfamily gradientcolorr ">Education  Academy</h1>
-          <p>
+          <h1 className="text-4xl cuscolor txtfamily gradientcolorr">Sunshine Franchise</h1>
+          <h1 className="text-4xl txtfamily gradientcolorr " style={{color:" #ED7D31"}}>Opportunity</h1>
+          <p style={{color:"#ffffff"}}>
             Empowering students with skills in abacus, robotics, and more. Join us
             <br />
             today!
           </p>
           <div className="btns">
-            <button className="blue_btns cusbtnone">Join us now</button>
+            <button className="blue_btns cusbtnone" >Join us now</button>
             <button className="border_btns cusbtntwo">Learn more here</button>
           </div>
         </div>
-        <div className="right_content_main">
+        <div className="right_content_main" style={{marginTop:"350px"}}>
           <div className="animation">
             <Slider {...settings} className="heightset">
               <div className="rightslide">
@@ -100,7 +100,7 @@ const Mains = () => {
         </div>
       </div>
 
-      <div className="wrapper_icons">
+      {/* <div className="wrapper_icons">
         <div className="contents_main">
           <div className="icons">
             <i>
@@ -121,7 +121,7 @@ const Mains = () => {
             <p>Community and Support</p>
           </div>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 };

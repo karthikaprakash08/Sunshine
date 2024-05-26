@@ -2,11 +2,15 @@
 
 
 .main_head{
-    background: linear-gradient(72deg,#1B1A1D,#302424,#2E2938,#2B2A3C);
-    height: 60vh;
+    position: relative;
+    background-image:url("../images/mainbg2.jpg") ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
     border-bottom-left-radius: 60px;
     border-bottom-right-radius: 60px;
- 
+    z-index: 6;
     
 }
 .right_content_main{
@@ -19,13 +23,16 @@
     /* background-color: red; */
     width: 260px;
 }
+
 .rightslide{
-    position: relative
-    ;
-left: 70px;}
+    position: relative;
+    left: 70px;
+}
+
 .mainimgmain{
     margin-bottom: 19px;
 }
+
 .imganimation{
     white-space: nowrap;
   height: 200px;
@@ -51,9 +58,11 @@ left: 70px;}
 }
 .left_content_main{
     line-height: 38px;
+    padding-top: 300px;
 }
 .cuscolor{
-    color: rgba(255, 120, 71, 0.975);  
+    /* color: #6F4E37;   */
+    font-size: 60px;
 }
 .btns{
     display: flex;
@@ -61,6 +70,8 @@ left: 70px;}
 }
 .txtfamily{
     font-family: 'Frank Ruhl Libre';
+    color: rgb(78, 25, 6);
+    text-shadow: 4px 4px 5px rgb(78, 25, 6);
 }
 .blue_btns{
     color: white;
@@ -68,16 +79,27 @@ left: 70px;}
     display: flex;
     align-items: center;
     font-weight: 600;
+    
 }
+
 .border_btns{
- 
+    
     display: flex;
     align-items: center;
     border-radius: 10px;
-    border: 1px solid white;
+    /* border: none; */
     font-weight: 600;
 }
-.wrapper_icons{
+
+.border_btns:hover{
+    background-color: #E9AE10;
+}
+
+.left_content_main p{
+    text-shadow: 2px 2px 3px #000000;
+}
+
+/* .wrapper_icons{
     display: flex;
     justify-content: center;
 }
@@ -95,16 +117,20 @@ left: 70px;}
 .mainicon{
     color:rgb(86, 152, 240);
     font-size: 25px;
-}
+} */
 .cusbtnone{
-    background-color: blue;
+    background-color: #E9AE10;
     color: white;
     border: none;
     padding: 1px 23px;
 }
+
+.cusbtnone:hover{
+    background-color: blue;
+}
 .cusbtntwo{
-border: 2px solid white;
-background-color: transparent;
+/* border: 2px solid white; */
+background-color: blue;
 color: white;
 padding: 1px 23px;
 }

@@ -16,7 +16,7 @@
   position: relative;
   height: 450px;
   top: -47px;
-  z-index: -1;
+  z-index: 5;
 
 
   overflow: hidden;
@@ -50,7 +50,7 @@
   border-bottom-right-radius: 60px;
   position: relative;
   height: 170px;
-  z-index: -2;
+  z-index: 4;
   height: 260px;
   
 

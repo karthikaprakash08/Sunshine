@@ -22,7 +22,6 @@
     margin-top: 167px;
    /* display: flex; */
    width: auto;
-
    margin-left: 100px;
 }
 
@@ -46,30 +45,32 @@
     position: relative;
     top: -200px;
     color: wheat;
-    z-index: -3;
+    z-index: 3;
     background: linear-gradient(180.46deg, rgba(254, 161, 36, 0.8) 3.26%, #F2E3F2 99.61%);
     /* background-size: contain; */
     height: 490px;
     background-repeat: no-repeat;
     background-size: cover;
-     
-  border-bottom-left-radius: 60px;
-  border-bottom-right-radius: 60px;
+    border-bottom-left-radius: 60px;
+    border-bottom-right-radius: 60px;
 }
+
 .mb-50{
     font-weight: 900px;
     font-size: 50px;
-   position: relative;
-   top: 180px;
-   left: -290px;
-   margin-left: 50px;
-   font-family: Odor Mean Chey;
+    position: relative;
+    top: 180px;
+    left: -290px;
+    margin-left: 50px;
+    font-family: Odor Mean Chey;
 
 }
+
 .whyfran{
     height: 400px;
     width: 450px;
 }
+
 .f-b{
     color: black;
     font-weight: 700;

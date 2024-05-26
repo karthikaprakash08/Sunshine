@@ -8,7 +8,8 @@
 }
 
 .wholecontainer{
-  background: linear-gradient(122.01deg, #1F0A39 0%, #400D22 81.9%);
+  background: linear-gradient(163.46deg, #8240D4 11.45%, #D23777 88.55%);
+
   margin-top:-90px;
   max-width:100%;
   height:850px;
@@ -33,7 +34,8 @@
   backdrop-filter: blur(20px); /* Apply backdrop filter for blur effect */
   box-shadow: inset 0 0 30px rgba(255, 255, 255, 0.5);
 
-  background: linear-gradient(122.01deg, #1F0A39 0%, #400D22 81.9%);
+  background: linear-gradient(163.46deg, #8240D4 11.45%, #D23777 88.55%);
+
 }
 
 .pagination-container {
@@ -79,20 +81,23 @@
   width: 600px;
   backdrop-filter: blur(10px); /* Apply backdrop filter for blur effect */
   box-shadow: inset 0 0 30px rgba(255, 255, 255, 0.5);
-  background: linear-gradient(122.01deg, #1F0A39 0%, #400D22 81.9%);
+  background: linear-gradient(163.46deg, #8240D4 11.45%, #D23777 88.55%);
+
   height:650px;
   border:  none;
   border-radius: 25px;
   margin-top: 25px;
   padding-top: 30px;
   margin: 50px;
-  background: linear-gradient(122.01deg, #1F0A39 0%, #400D22 81.9%);
+  background: linear-gradient(163.46deg, #8240D4 11.45%, #D23777 88.55%);
+
 }
 
 .card4 {
   backdrop-filter: blur(10px); /* Apply backdrop filter for blur effect */
   box-shadow: inset 0 0 30px rgba(255, 255, 255, 0.5);
-  background: linear-gradient(122.01deg, #1F0A39 0%, #400D22 81.9%);
+  background: linear-gradient(163.46deg, #8240D4 11.45%, #D23777 88.55%);
+
   width: 400px;
   height:650px;
   border: 1px solid none;
@@ -101,7 +106,8 @@
 
   padding-top: 30px;
   margin: 50px;
-  background: linear-gradient(122.01deg, #1F0A39 0%, #400D22 81.9%);
+  background: linear-gradient(163.46deg, #8240D4 11.45%, #D23777 88.55%);
+
 }
 
 .container{
@@ -112,7 +118,8 @@
   width: 400px;;
   backdrop-filter: blur(10px); /* Apply backdrop filter for blur effect */
   box-shadow: inset 0 0 30px rgba(255, 255, 255, 0.5);
-  background: linear-gradient(122.01deg, #1F0A39 0%, #400D22 81.9%);
+  background: linear-gradient(163.46deg, #8240D4 11.45%, #D23777 88.55%);
+
   height:650px;
   border: 1px solid none;
   border-radius: 25px;
@@ -125,20 +132,23 @@
   width: 400px;
   backdrop-filter: blur(10px); /* Apply backdrop filter for blur effect */
   box-shadow: inset 0 0 30px rgba(255, 255, 255, 0.5);
-  background: linear-gradient(122.01deg, #1F0A39 0%, #400D22 81.9%);
+  background: linear-gradient(163.46deg, #8240D4 11.45%, #D23777 88.55%);
+
   height:650px;
   border: 1px solid none;
   border-radius: 25px;
   margin-top: 25px;
   padding-top: 30px;
   margin: 50px;
-  background: linear-gradient(122.01deg, #1F0A39 0%, #400D22 81.9%);
+  background: linear-gradient(163.46deg, #8240D4 11.45%, #D23777 88.55%);
+
 }
 
 .card6 {
   backdrop-filter: blur(10px); /* Apply backdrop filter for blur effect */
   box-shadow: inset 0 0 30px rgba(255, 255, 255, 0.5);
-  background: linear-gradient(122.01deg, #1F0A39 0%, #400D22 81.9%);
+  background: linear-gradient(163.46deg, #8240D4 11.45%, #D23777 88.55%);
+
   width: 400px;
   height:650px;
   border: 1px solid none;
@@ -146,7 +156,8 @@
   margin-top: 25px;
   padding-top: 30px;
   margin: 50px;
-  background: linear-gradient(122.01deg, #1F0A39 0%, #400D22 81.9%);
+  background: linear-gradient(163.46deg, #8240D4 11.45%, #D23777 88.55%);
+
 }
 
 /* *{
@@ -160,7 +171,8 @@
   width: 100%;
   align-items: center;
   margin-top: 50px;
-  background: linear-gradient(122.01deg, #1F0A39 0%, #400D22 81.9%);
+  background: linear-gradient(163.46deg, #8240D4 11.45%, #D23777 88.55%);
+
 
 }
 
@@ -217,7 +229,8 @@ th.rev{
 }
 
 .striped-table td{
-  /* background: linear-gradient(122.01deg, #1F0A39 0%, #400D22 81.9%); */
+  /* background: linear-gradient(163.46deg, #8240D4 11.45%, #D23777 88.55%);
+ */
   border-style: border-box;
   margin:30px;
   padding: 20px;
@@ -233,13 +246,15 @@ th.rev{
 
 .striped-table tr:nth-child(even) {
   background-color: #f2f2f2;
-  background: linear-gradient(122.01deg, #1F0A39 0%, #400D22 81.9%);
+  background: linear-gradient(163.46deg, #8240D4 11.45%, #D23777 88.55%);
+
 }
 
 .striped-table {
 margin-top: -20px;
   border-radius: 50%;
-  background: linear-gradient(122.01deg, #1F0A39 0%, #400D22 81.9%);
+  background: linear-gradient(163.46deg, #8240D4 11.45%, #D23777 88.55%);
+
  
  /* Border radius for the entire table */
 }  

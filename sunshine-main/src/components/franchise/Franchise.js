@@ -1,45 +1,19 @@
 import React from 'react'
 import '../franchise/franchise.css'
-import fran from "../images/fran.png"
+import fran from "../images/whyfran.jpg"
+
 const Franchise = () => {
   return (
     <div className="whole_wrapf">
-      <div >
-      <h2  className='mb-50 f-b'>Why Sunshine Franchise</h2>
-      </div>
-
-
-    <div className="wrap_franchise">
-      
-        <div className='franchise'>
-     
-      <div className="left_cont_franchise">
-      <div className="first_part">
-      <div className="cont_box">
-            <p style={{color:"white"}}>Established in 2012 trained 2Lakh+ students</p>
-        </div>
-        <div className="cont_box">
-            <p style={{color:"white"}}>Assured financial growth 
-            of minimum 12 Lakhs
-            </p>
+      <div className="wrap_franchise">
+          <div className="content_box">
+            <h2 className='title'>Why Sunshine Franchise</h2>
+            <p style={{fontSize:"20px", fontWeight:"400", textAlign:"justify"}}>Established in 2012, our institution has trained over 200,000 students, offering programs for all ages that enhance 21st-century skills. We assure a minimum financial growth of 12 lakhs with a low investment, providing a return on investment (ROI) within 3 to 6 months and promising high returns.</p>
+          </div>
+        <div className="right_cont_franchise">
+          <img src={fran} alt="Franchise" className='whyfran'/>
         </div>
       </div>
-        <div className="second_part">
-        <div className="cont_box">
-            <p style={{color:"white"}}>Program for all ages that enhances 21st 
-            century skills</p>
-        </div>
-        <div className="cont_box">
-            <p style={{color:"white"}}>Low Investment - ROI in 3 to 6 
-            months - high Returns</p>
-        </div>
-        </div>
-      </div>
-      <div className="right_cont_franchise">
-        <img src={fran} alt="image" className='whyfran'/>
-      </div>
-    </div>
-    </div>
     </div>
   )
 }

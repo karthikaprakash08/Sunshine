@@ -3,8 +3,8 @@
 
 .main_head{
     position: relative;
-    background-image:url("../images/mainbg2.jpg") ;
-    background-position: center;
+    background-image:url("../images/franimg.jpg") ;
+    /* background-position: center; */
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;

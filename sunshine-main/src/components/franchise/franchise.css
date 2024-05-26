@@ -1,131 +1,125 @@
-.cont_box{
-    background: linear-gradient(to right,#A368B2,#BA87B6);
-    border-radius: 11px;
-    height: 90px;
-    padding: 20px;
-    width: 300px;
+.content_box {
     font-weight: 700;
     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    /* padding: 20px;
+    background: white;
+    border-radius: 10px; */
+    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
+    width: 400px;
+  }
+  
+  .title {
+    font-weight: 900;
+    font-size: 30px;
+    color: black;
+    /* padding-bottom: 80px; */
+}
+  
+  /* .left_cont_franchise {
+    display: flex;
     justify-content: center;
     align-items: center;
-}
-
-.left_cont_franchise{
-    display: grid;
-    grid-template-columns: repeat(3,100px);
+  }
+   */
+   .wrap_franchise {
+    margin-top: 70px;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 150px;
-}
-.wrap_franchise{
-    margin-top: 167px;
-   /* display: flex; */
-   width: auto;
-   margin-left: 100px;
-}
+    width: 800px;
+    margin-left: 60px;
+    background: linear-gradient(180deg, #db7725 40%, #d49742 100%);
+    border-radius: 40px;
+    padding: 20px;
+    gap: 30px;
+  }
 
-.first_part{
-    display: flex;
-    gap: 50px;
-    flex-direction: column;
-}
+  .wrap_franchise:hover{
+    animation: fadeOut 2s ease-out forwards;
+  }
+  
+  @keyframes fadeOut {
+    0% {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  /* .whole_wrapf:hover{
+    animation: fadeOut 1s ease-out forwards;
+  } */
 
-.second_part{
-    display: flex;
-    gap: 50px;
-    flex-direction: column;
-}
-
-.franchise{
-    display: flex;
-}
-.whole_wrapf{
-    /* background-color: black; */
+  .whole_wrapf {
     position: relative;
     top: -200px;
-    color: wheat;
+    color: white;
     z-index: 3;
     background: linear-gradient(180.46deg, rgba(254, 161, 36, 0.8) 3.26%, #F2E3F2 99.61%);
-    /* background-size: contain; */
-    height: 490px;
+    height: 600px;
     background-repeat: no-repeat;
     background-size: cover;
     border-bottom-left-radius: 60px;
     border-bottom-right-radius: 60px;
-}
-
-.mb-50{
-    font-weight: 900px;
-    font-size: 50px;
-    position: relative;
-    top: 180px;
-    left: -290px;
-    margin-left: 50px;
-    font-family: Odor Mean Chey;
-
-}
-
-.whyfran{
-    height: 400px;
-    width: 450px;
-}
-
-.f-b{
-    color: black;
-    font-weight: 700;
-}
-
-@media (max-width:576px){
-    .franchise{
-        flex-direction: column;
-    }
-    .left_cont_franchise{
-        display: grid;
-        grid-template-columns: repeat(1,100px);
-        justify-content: center;
-        gap: 50px;
-        margin-left: -300px;
-    }
-    .whole_wrapf{
-        /* background-color: black; */
-        position: relative;
-        top: -200px;
-        color: wheat;
-        z-index: -3;
-        
-        
-        height: 980px;
-         
-      border-bottom-left-radius: 10px;
-      border-bottom-right-radius: 60px;
-    }
-    .right_cont_franchise{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        
-    }
-    .whyfran{
-        height: 260px;
-        width: 380px;
-        margin-right: 70px;
-        
-    }
-}
-
-.whole_wrapf {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     text-align: center;
-    height: 600px;
   }
   
+  .whyfran {
+    height: 350px;
+    width: 350px;
+    border-radius: 40px;
+    object-fit: cover;
+    background-size: cover;
+  }
+
+  .whyfran:hover {
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+  }
   
+  .f-b {
+    color: black;
+    font-weight: 700;
+  }
   
+  @media (max-width: 576px) {
+    .wrap_franchise {
+      flex-direction: column;
+      align-items: center;
+    }
   
+    .left_cont_franchise {
+      justify-content: center;
+      margin-left: 0;
+    }
   
+    .whole_wrapf {
+      top: -200px;
+      color: wheat;
+      z-index: -3;
+      height: 980px;
+      border-bottom-left-radius: 10px;
+      border-bottom-right-radius: 60px;
+    }
   
+    .right_cont_franchise {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  
+    .whyfran {
+      height: 260px;
+      width: 380px;
+      margin-right: 70px;
+    }
+  }
   

@@ -35,7 +35,7 @@ const Mains = () => {
       <div className="whole_container">
         <div className="left_content_main">
           <h1 className="text-4xl cuscolor txtfamily gradientcolorr">Sunshine Franchise</h1>
-          <h1 className="text-4xl txtfamily gradientcolorr " style={{color:" #ED7D31"}}>Opportunity</h1>
+          <h1 className="text-4xl txtfamily gradientcolorr " style={{color:" #ED7D31", fontSize:"55px"}}>Opportunity</h1>
           <p style={{color:"#ffffff"}}>
             Empowering students with skills in abacus, robotics, and more. Join us
             <br />

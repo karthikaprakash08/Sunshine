@@ -15,6 +15,7 @@ const client = new MongoClient(uri, {
       deprecationErrors: true,
     }
   });
+const stripe = require("stripe")("sk_test_51PUVZZRrG0ZkGYrrIq8xX3O1fcIQ4xrvYmHRM9m6oFSNjEZL0AcRnLmnAx7ZORfMLH0UwqEDQGlcFlfv7Hm7JJoN00nHLBHIxq")
 
 app.use(cors())
 app.use(bodyParser.json());
@@ -89,6 +90,46 @@ app.post('/signup', (req, res)=>{
     }
   }
   run().catch(console.dir);
+})
+
+app.post('/create-checkout-session', async (req, res)=>{
+
+    const item = [
+      {
+        price_data: {
+          currency: 'usd',
+          product_data: {
+            name:req.body.name,
+          },
+          unit_amount:Math.round(req.body.price*100),
+        },
+        quantity: 1, // Optional, defaults to 1
+      },
+      {
+        // Another item object with price_data and quantity
+      },
+    ];
+
+    const lineItems = {
+    price_data:{
+    currency: "usd",
+    product_data:{
+    name:req.body.name,
+    },
+    unit_amount:Math.round(req.body.price*100),
+    },
+    quantity: 1
+    }
+
+    const session = await stripe.checkout.sessions.create({
+    payment_method_types: ["card"],
+    line_items: item,
+    mode: "payment",
+    success_url: "https://csuite-academy.netlify.app/home",
+    cancel_url: "https://csuite-academy.netlify.app/payment?status=failed"
+    })
+
+    res.json({id:session.id})
 })
 
 app.listen(port, () => {
